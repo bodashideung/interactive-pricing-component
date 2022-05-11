@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
+    <title>Frontend Mentor | Interactive pricing component</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <main>
+      <div class="heading">
+        <h1 class="heading-title">Simple, traffic-based pricing</h1>
+        <div class="heading-subtitle">
+          <p class="subtitle-1">Sign-up for our 30-day trial. </p>
+          <p class="subtitle-2">No credit card required.</p>
+        </div>
+      </div>
+      <div class="component">
+        <div class="section-1">
+          <div class="counter">
+            <span class="counter__item pageviews">0 Pageviews</span>
+            <input type="range" step="10"  value ="0" min="0" max="100" class="counter__item slider">
+            <div class="monthly counter__item"><strong class="price">$0</strong>/ month</div>
+          </div>
+          <div class="billing">
+            <span>Monthly Billing</span>
+            <button class="toggle"><span class="toggle-btn"></span></button>
+            <span>Yearly Billing</span>
+            <span class="discount">-25%</span>
+          </div>
+        </div>
+        <div class="feature">
+          <ul class="feature__item">
+            <li>Unlimited websites</li>
+            <li>100% data ownership</li>
+            <li>Email reports</li>
+          </ul>
+          <a href="" class="feature__item cta-trial">Start my trial</a>
+        </div>
+      </div>
+    </main>
+
+    <footer class="attribution">Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. Coded by <a href="https://bodashideung.vercel.app">bodashideung</a>.</footer>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
